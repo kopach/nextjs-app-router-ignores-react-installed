@@ -1,7 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client';
+import Image from 'next/image';
+import styles from './page.module.css';
+import React from 'react';
+console.log('🚀 ~ React.version:', React.version);
 
 export default function Home() {
+  console.log('🚀 ~ React.version:', React.version);
   return (
     <div className={styles.page}>
       <main className={styles.main}>
